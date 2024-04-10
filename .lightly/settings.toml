@@ -1,0 +1,6 @@
+ports = []
+[languages.rust]
+language = "rust"
+[languages.rust.run."config.rs"]
+name = "config.rs"
+path = "/workspace/env-fill/src/schema/config.rs"
